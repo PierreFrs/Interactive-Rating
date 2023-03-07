@@ -89,12 +89,12 @@ body {
 
 .ratings span:hover {
     color: var(--White);
-    background-color: var(--Orange);
+    background-color: var(--Light-Grey);
 }
 
-.ratings span:visited {
-    color: var(--White);
-    background-color: var(--Medium-Grey);
+.checked {
+    background-color: var(--Orange) !important;
+    color: var(--White) !important;
 }
 
 .submit-button {
@@ -129,11 +129,6 @@ body {
     padding: 0.7rem;
     margin: 1rem auto;
     border-radius: 2rem;
-}
-
-.checked {
-    background-color: var(--Orange) !important;
-    color: var(--White) !important;
 }
 
 /* Media Queries */
