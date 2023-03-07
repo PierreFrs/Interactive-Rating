@@ -4,6 +4,7 @@ const ratePoint = document.getElementById('rate');
 const ratingSection = document.querySelector('.rating-section');
 const thankSection = document.querySelector('.thank-section');
 
+
 let rate = null;
 
 ratingCards.forEach((ratingCard) => {
@@ -19,6 +20,7 @@ ratingCards.forEach((ratingCard) => {
 });
 
 submitBtn.addEventListener('click', () => {
+    console.log(ratingSection)
     if (rate) {
         ratePoint.innerText = rate;
         ratingSection.classList.add('hidden');
