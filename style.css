@@ -120,6 +120,12 @@ body {
     background-color: var(--White);
 }
 
+/* hide when class hidden is added */
+
+.hidden {
+    display: none;
+}
+
 /* Thank You Section */
 
 .thank-section {
