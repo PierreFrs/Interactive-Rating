@@ -43,6 +43,10 @@ body {
     padding: 2rem;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Ratings Section */
 
 .star-icon {
